@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+
+@import "./assets/css/fonts.css";
+@import "./assets/fonts/icons/taksa/icomoon.css";
+
+@source "../.flowbite-react/class-list.json";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-50: #e3f8fb;
+  --color-primary-100: #c1f6f9;
+  --color-primary-200: #94eded;
+  --color-primary-300: #57d9d9;
+  --color-primary-400: #32b8b8;
+  --color-primary-500: #119a9a;
+  --color-primary-600: #0f8a8a;
+  --color-primary-700: #0d7c7c;
+  --color-primary-800: #0a6d6d;
+  --color-primary-900: #085757;
+
+  --color-secondary-50: #fff3e8;
+  --color-secondary-100: #fadfca;
+  --color-secondary-200: #ffc7a1;
+  --color-secondary-300: #f4966a;
+  --color-secondary-400: #f27f47;
+  --color-secondary-500: #ec6725;
+  --color-secondary-600: #d65e1f;
+  --color-secondary-700: #b9551a;
+  --color-secondary-800: #9e4c15;
+  --color-secondary-900: #8c430f;
+
+  --color-slate-50: #e5eff4;
+  --color-slate-100: #cbd5e1;
+  --color-slate-200: #a9b8d1;
+  --color-slate-300: #95a9c2;
+  --color-slate-400: #7a8eab;
+  --color-slate-500: #51698d;
+  --color-slate-600: #455e7e;
+  --color-slate-700: #2f3f56;
+  --color-slate-800: #1f2a3c;
+  --color-slate-900: #0e1928;
+
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #374151;
+  --color-gray-900: #111928;
+
+  --color-text-new-green: #02acb8;
+  --color-text-link-interactive: #ec6725;
+  --color-text-error: #df2040;
+  --color-text-deactive-gray: #b0bec5;
+  --color-text-success: #4caf50;
+  --color-text-placeholder-disable: #b0bec5;
+  --color-text-secondary: #7a8eab;
+  --color-text-primary: #2c3e50;
+
+  --color-state-disable: #b0bec5;
+  --color-state-info: #2196f3;
+  --color-state-success: #4caf50;
+  --color-state-warning: #ff9800;
+  --color-state-error: #df2040;
+  --color-state-hover-secondray: #b9551a;
+  --color-state-hover-primary: #0a6d6d;
+  --color-state-normal-secondray: #ec6725;
+  --color-state-normal-primary: #119a9a;
+
+  --color-other-unselected-field-box-bg: #f9fafb;
+  --color-other-blue-gray-light-o4: #f0f4f866;
+  --color-other-blue-gray-light: #f0f4f8;
+  --color-other-blue-gray-medium: #dce7f1;
+
+  --font-iranyekan: "iranyekan";
+}

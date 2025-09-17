@@ -1,0 +1,21 @@
+export type InfoParamType = {
+  name?: string;
+  parentId?: number;
+  masterId?: number;
+  page?: number;
+  size?: number;
+  sort?: string[];
+};
+export type InfoResponseType = {
+  number: number;
+  numberOfElements: number;
+  size: number;
+  totalElements: number;
+  totalPages: number;
+  content: [
+    {
+      id: number;
+      name: string;
+    }
+  ];
+};
