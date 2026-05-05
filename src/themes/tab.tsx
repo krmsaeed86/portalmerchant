@@ -9,7 +9,7 @@ const Tab = createTheme({
         "-mb-px flex-wrap border-b border-gray-200 dark:border-yellow-700",
     },
     tabitem: {
-      base: "flex items-center justify-center rounded-t-lg p-4 text-sm font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+      base: "flex items-center justify-center rounded-t-lg p-4 text-sm font-medium transition-colors duration-300 ease-in-out first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
       variant: {
         underline: {
           base: "rounded-t-lg",
